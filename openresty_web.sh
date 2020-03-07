@@ -4,6 +4,7 @@ prefix=$(readlink -m $(dirname $0));
 echo $prefix
 ngx_conf="$prefix/conf/openresty_web.conf";
 echo $ngx_conf
+# nginx 命令所在的位置
 ngx="nginx";
 pid=$(cat $prefix/logs/nginx.pid 2> /dev/null)
 

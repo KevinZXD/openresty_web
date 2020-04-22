@@ -6,3 +6,4 @@
 local core_t = require('trends.core')
 local core = core_t:new()
 core:run()
+--ngx.say("ok")
